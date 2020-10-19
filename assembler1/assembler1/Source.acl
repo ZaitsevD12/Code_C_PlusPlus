@@ -1,0 +1,38 @@
+
+
+mov 3950,r0
+
+out r0,p0
+
+mov 11BC,r1
+
+out r1,p1
+
+mov 3950,r2
+
+out r2,p2
+
+mov 100,r3
+
+out r3,p3
+
+mov  CFF3,r0
+
+out r0,p4
+
+mov 7E3E,r1
+
+out r1,p5
+
+mov 3E3C,r2
+
+out r2,p6
+
+mov 1FF8,r3
+
+out r3,p7
+
+m:
+mov 1,r1
+
+stop
