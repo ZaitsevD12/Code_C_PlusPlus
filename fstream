@@ -1,0 +1,20 @@
+#include <iostream>
+#include <fstream>
+
+int main()
+{
+	setlocale(LC_ALL, "rus");
+
+	std::ifstream file("C:\\Users\\Admin\\Desktop\\kab.txt");
+
+	if (!file)
+	{
+		std::cout << "Файл не открыт\n\n";
+		return -1;
+	}
+	else
+	{
+		std::cout << "Все ОК! Файл открыт!\n\n";
+		return 1;
+	}
+}
